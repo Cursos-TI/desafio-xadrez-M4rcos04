@@ -24,5 +24,19 @@ int main() {
         contador_rainha++;
     } while (contador_rainha < 8);
 
+    printf("\n");
+
+    printf("--- Movimento do Cavalo (duas casas para baixo e uma para a esquerda) ---\n");
+
+    for (int i = 0; i < 2; i++) {
+        printf("Baixo\n");
+    }
+
+    int casas_esquerda = 1;
+    do {
+        printf("Esquerda\n");
+        casas_esquerda--;
+    } while (casas_esquerda > 0);
+
     return 0;
 }
